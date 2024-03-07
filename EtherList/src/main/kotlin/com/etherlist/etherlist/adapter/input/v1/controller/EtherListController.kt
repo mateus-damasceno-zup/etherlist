@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*
 
 
 @RestController
-@RequestMapping("/lista-ether")
+@RequestMapping("/etherlist")
 class EtherListController (
     @Autowired
     private val service: CreateListaEtherCase

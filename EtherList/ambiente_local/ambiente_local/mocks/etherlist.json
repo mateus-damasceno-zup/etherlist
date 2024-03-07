@@ -1,0 +1,12 @@
+[
+  {
+    "httpRequest" : {
+      "path": "etherlist/all"
+
+    },
+    "method" : "POST",
+
+    "httpResponse" : {
+    }
+  }
+]
