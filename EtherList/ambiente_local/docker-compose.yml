@@ -7,7 +7,7 @@ services:
     ports:
       - "1080:1080"
     environment:
-      MOCKSERVER_INITIALIZATION_JSON_PATH: /mocks/init.json
+      MOCKSERVER_INITIALIZATION_JSON_PATH: /mocks/etherlist.json
       MOCKSERVER_WATCH_INITIALIZATION_JSON: "true"
     volumes:
       - ./ambiente_local/mocks:/mocks

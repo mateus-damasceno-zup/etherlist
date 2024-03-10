@@ -6,6 +6,8 @@ import com.etherlist.etherlist.application.service.CreateListaEtherCase
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder
+import java.net.URI
 
 
 @RestController
@@ -17,7 +19,12 @@ class EtherListController (
     @PostMapping("/save")
     fun saveEtherList(@RequestBody etherListRequests: EtherListRequest): ResponseEntity<EtherListResponseDTO> {
         val savedEtherListDto = service.saveEtherList(etherListRequests)
-        return ResponseEntity.ok().body(savedEtherListDto)
+        val location: URI = ServletUriComponentsBuilder.fromCurrentRequest()
+            .path("/{id}")
+            .buildAndExpand(savedEtherListDto?.id)
+            .toUri()
+
+        return ResponseEntity.created(location).body(savedEtherListDto)
     }
     @GetMapping("/all")
     fun getAllEtherData(): ResponseEntity<List<EtherListResponseDTO?>> {
