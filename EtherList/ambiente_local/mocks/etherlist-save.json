@@ -3,22 +3,22 @@
     "path": "/etherlist/save",
     "method": "POST",
     "body": {
-      "id" : "803088af-7be4-4ec1-bcdc-e3091b04823a",
-      "itensLista" :[
+      "id": "803088af-7be4-4ec1-bcdc-e3091b04823a",
+      "itensLista": [
         {
-          "nome" : "dfsdawrwersd",
-          "valor" : 10.0
+          "nome": "dfsdawrwersd",
+          "valor": 10.0
         },
         {
-          "nome" : "testssdfe 282h",
-          "valor" : 250.0
+          "nome": "testssdfe 282h",
+          "valor": 250.0
         }
       ]
     }
   },
   "httpResponse": {
-    "statusCode" : 201,
-    "body":   {
+    "statusCode": 201,
+    "body": {
       "id": "803088af-7be4-4ec1-bcdc-e3091b04823a",
       "etherListRequest": [
         {

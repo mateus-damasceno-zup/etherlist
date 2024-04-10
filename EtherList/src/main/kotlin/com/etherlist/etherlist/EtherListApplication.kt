@@ -3,9 +3,11 @@ package com.etherlist.etherlist
 import com.etherlist.etherlist.application.repository.EtherListReposiory
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.cloud.openfeign.EnableFeignClients
+import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories
 
-
+@EnableFeignClients
 @SpringBootApplication
 class EtherlistApplication
 
