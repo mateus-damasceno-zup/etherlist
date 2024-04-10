@@ -2,7 +2,7 @@ package com.etherlist.etherlist.adapter.input.v1.controller
 
 import com.etherlist.etherlist.adapter.input.v1.controller.request.model.EtherListRequest
 import com.etherlist.etherlist.adapter.output.rest.dto.EtherListResponseDTO
-import com.etherlist.etherlist.applicat.CreateListaEtherService
+import com.etherlist.etherlist.application.service.etherlist.CreateListaEtherService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
