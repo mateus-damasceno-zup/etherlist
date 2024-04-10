@@ -66,20 +66,20 @@ Necessita do Insomnia para passar as listas
 # Exemplo de Response
 ```
 {
-	"id": "d28f4a2e-1089-4f0c-8a2b-f0f86f1faf53",
+	"id": "e6f0e191-56c5-402e-8bc3-a37e90af17c9",
 	"etherListRequestDTO": [
 		{
-			"id": "d28f4a2e-1089-4f0c-8a2b-f0f86f1faf53",
+			"id": "e6f0e191-56c5-402e-8bc3-a37e90af17c9",
 			"itensDTO": [
 				{
 					"nome": "Dub inc",
 					"valor": 25.0,
-					"categoria": "Verde"
+					"categoria": "Amarelo"
 				},
 				{
 					"nome": "Jason Mraz",
 					"valor": 25.0,
-					"categoria": "Azul"
+					"categoria": "Amarelo"
 				},
 				{
 					"nome": "Pedra Leticia",
@@ -94,13 +94,13 @@ Necessita do Insomnia para passar as listas
 				{
 					"nome": "Eddie Murphy - Red Light ft. Snoop Dog ",
 					"valor": 2.5,
-					"categoria": "Amarelo"
+					"categoria": "Vermelho"
 				}
 			]
 		}
 	],
-	"dataCriacao": "2024-04-10T22:20:01.704390500Z",
-	"dataExplosao": "2024-04-11 19:20:01"
+	"dataCriacao": "2024-04-10 20:08:15",
+	"dataExplosao": "2024-04-11 20:08:15"
 }
 ```
 
