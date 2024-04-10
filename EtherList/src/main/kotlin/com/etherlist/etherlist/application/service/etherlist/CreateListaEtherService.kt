@@ -13,7 +13,6 @@ import com.etherlist.etherlist.application.repository.EtherListReposiory
 import com.etherlist.etherlist.application.service.datahandler.DataExplosao
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
-import kotlin.random.Random
 
 
 @Service
@@ -46,12 +45,13 @@ class CreateListaEtherService(
 
 
         val dataCriacao = datas.criarDataLista()
-        val dataExplosao = datas.criaDataExplosao(dataCriacao)
+        val dataCriacaoFormatada = datas.printData(dataCriacao)
+        val dataExplosao = datas.criarDataExplosao(dataCriacao)
 
         val etherListResponseDTO = EtherListResponseDTO(
             id = etherListRequests.id,
             etherListRequestDTO = listOf(etherListRequestDTO),
-            dataCriacao = dataCriacao.toString(),
+            dataCriacao = dataCriacaoFormatada,
             dataExplosao = dataExplosao
         )
 
