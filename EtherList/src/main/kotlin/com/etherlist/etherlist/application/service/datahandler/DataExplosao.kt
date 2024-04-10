@@ -1,11 +1,11 @@
 package com.etherlist.etherlist.application.service.datahandler
 
 import org.springframework.stereotype.Component
-import org.springframework.stereotype.Service
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
+
 @Component
 class DataExplosao {
 

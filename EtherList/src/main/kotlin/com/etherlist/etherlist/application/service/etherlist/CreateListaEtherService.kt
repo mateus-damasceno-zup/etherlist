@@ -1,8 +1,8 @@
-package com.etherlist.etherlist.applicat
+package com.etherlist.etherlist.application.service.etherlist
 
-import com.etherlist.etherlist.adapter.input.v1.mapper.toResponse
 import com.etherlist.etherlist.adapter.input.v1.controller.request.model.EtherListRequest
 import com.etherlist.etherlist.adapter.input.v1.mapper.toDTO
+import com.etherlist.etherlist.adapter.input.v1.mapper.toResponse
 import com.etherlist.etherlist.adapter.output.rest.dto.EtherListRequestDTO
 import com.etherlist.etherlist.adapter.output.rest.dto.EtherListResponseDTO
 import com.etherlist.etherlist.adapter.output.rest.dto.ItensDTO
